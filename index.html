@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-1039c92c.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAABTBJREFUWEeNV39MVVUc/1ze8yEEgZoCBtgWrB/PpoxFYy4KU4e5ptGQ2dqagGvOwZKtlNhqOk2asRWbuERaWxhYkmialDwSyldCoSOd9DJtIKWzZsLjya/3bjvH+72de9551/jn8u4953x/fb6fz/doM9zrdQ2Ajv/+NI29AcT3un5nBfvG/o+KikIoFEKUpiEkfXM4HAgGg+Za4Wi+j85iT83lXq9D0/hidqD4ZzpifCPjd3OEzqD1dA4Zpv0sQI1lQDYqRih+czocmA4GzehVkbGMBCMEwiMWss0c4w6IkdGhZoqNVMsbxSyIkbH3zAmKSv4mB8EdoJqRUUtkNodRamm9bEzGi6WERiY018ISXQQYj8CIGrpuAScBiD0ZyOQScFDSXuGjnE1LyaMfK+UOqLxnDjCA8toZT9FBOljuIrbG6XRienpa2Qm89pQBwgDVlEVha0zTEBvjwlhgAvfGxWDEf5tHPTN6BsbHJ8Na8q5lkkvAonWwFEdIZ+GKx/FkdiYqa5rxUc0GfNjaja6eAdRufRHdvQP4ovMsL5vccpEC1FgJ5KgpA+SICKa+w9vxYNo8rKusx6G6cvT0X8ZLr3+AC8fexqXB68gufOsOQRFRKTAhnmvyAOsEIiIlHgAkxMfid08tLwHhgkW2t7kTG9ctxe3xKaTnb8at0YCJM9N5gzHlllcSkYhS2Zmdm4vwWulKSwf87LuKyalpdP/ow5bdLbZExTZaysNKwF7KNGyhW4HvZyfcg4H2d5AYH2txYs8nHuyoP4K///FzELMO0hTpp3OJsMwMmC0ltBtZkImq6pXnsK38efT/MoRgSEfWI+mofq8Vu/cftzil0g6Z9sOo2ASgjaLFx8Xg4vFdKK1u5G3HuuHhgi3wByYsDoipJtWkpylUohYo+d6omUWxAORmZeCHc79xg7lZmfD2+cKBZ9MJxKoWEDL2IoqVwWehaCFOUXJlxpSzqZoduBbInC8CRUYt+20rXqSeEbAktzp3gFIvsxf7/eyyJWjv/B6rC/Jw7OR3yF+SjdmJCWhp+xrL8nLQ0d3Dn13ePmyteBmXB4cxMTHF9+TlZuGEx2vmS8mO4kAiyyfbWbgqHxd9V/DutldRtXMPchY/iuI1y1FQXIFNJUWo238Q5WXFaDxwBDuqNqLtxCmkzU/CQxkL8GXHaZzpu2DRljCSi15YojMkqxSNUWZ6WjJeWLUUK55+Aie7zuDmrVE8kJqCptZ2/q6u4SDKS9eioakNTfXb8c3pn9D8+VfYV/sGisqqwjRBnrY0ckAlrSSbhxprcPa8D4vcmfD29kPTonD1j+tInjcH7ze0oGJDMfZ9fBhvVpbh06MdmJycwtrVy1G79wD8Y4EwOaeaMJuWLhClU0zVrupNvKYFz+TC7w/g3PlfscidgdT7k3DpyhByFrvh+bYXa1Y+hVPePjZC8DWJCXH47KjH4kCYFlAX0OChmnLmJ8/Fjb9uYu59s/jhw3/ewILUFLhcToRCOmZGuzAy6secWYkY8Y9xKR8avobUlCQMDl+z8IMMeLMNVZOP7UwnTUqqwVbUk0iDb5gaEhao1y0ZMQbUSHcIVTubemIMOUo5VnonGFPNjDKnq0pnN+6bMyPjgUhKyG8uhiMyzZJBOyoW0R42dYlDqSyRVDt5RrAdrw1M0LhlOdP4weYDPRSy3kOJiumCaXotjVCqS4XKmBg16YiKgs0S8puRzRRsm0ahE2idSk/kMvEMUwmICf83iBgRGIbDIhPGMBUAzWu7cEH9F9GF33p/LSWMAAAAAElFTkSuQmCC">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAZpJREFUOE91Uz1LA0EQfXtJBFERIXIxMRALUYg2gmkUUlmkUgtFRJHYWomljZ2l2Ohv0FIQRdDCj0IUVNAgihC/QtBKjVVyF5m922V3E++K4+3tvJl5b4Y1JLPVKryHMca/Vf9EYBBmTJ6rd1komRXxnICCZaBPZhJrBA1985KAB3t/ayoxq5JYEJgXLIuBXsdxYFkWHNetbZFyEYFatiDaWlvA9f0LrnLPmBsfxvTSZv32SAOzx2AwgNzuKhKxMB7yRZTLDgYnVlCpOFJsrQUBhDiEZ0eHsL48QzJianEDB2e3UmTfNI5rXCDLSNVAwMJkJkVdYnvvHK7raW0m4wTCPsGsVqJmq6cVUweJLg/096AzZqMrHsXR6SXPGI20o7mpEd8/vzg8udAtJgJemj+JY5k0RtIpPOXf8Vb4QP61gA47jELxExE7jJ39Y7VQXQP609udQFtrC88cj9kIBYOc/atU4oQ3d4+aE1JE1Uoxjepw1XOKayUGiQN/jNXLpoim0JqI2jL5Gyk3VSH3NsXbGa2C/2w0bVbxH1j47SROi/YAAAAAAElFTkSuQmCC">
+    <title>REZA AMINI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+      theme: {
+        extend: {
+                   
+          fontSize:{
+            'xsss':['10px'],
+            'xss':['12px'],
+            'xs':['15px'],
+            'opx':['13px'],
+            'ops':['14px']
+
+          },
+          keyframes:{
+            'brobala':{
+              '0%':{transform:'translateY(0)'},
+              '40%':{transform:'translateY(0)'},
+              '50%':{transform:'translateY(-100%)'},
+              '90%':{transform:'translateY(-100%)'},
+              '90.00000001%':{transform:'translateY(100%)'}
+              
+            },
+            'bropain':{
+              '0%':{transform:'translateY(0)'},
+              '40%':{transform:'translateY(0)'},
+              '50%':{transform:'translateY(-100%)'},
+              '90%':{transform:'translateY(-100%)'},
+              '99%':{transform:'translateY(-200%)'},
+              '99.000000001%':{transform:'translateY(0)'}
+              // '90.00000001%':{transform:'translateY(-200%)'}
+              
+            }
+          },
+          
+        FontFace:{
+          'iranbold':['iranbold']
+        },
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      },
+      
+    }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <script type="module" crossorigin src="/assets/index-1a08d04e.js"></script>
+    <link rel="stylesheet" href="/assets/index-e2c46932.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html>
